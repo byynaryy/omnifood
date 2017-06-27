@@ -1,18 +1,40 @@
-/* HEADER ================================================================================= */
-h1 {
-    color: #00ff00;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+html, body {
+    background-color: #fff;
+    color: #555555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+body {
+    margin: 0;
+}
+
+
+
+
+/* HEADER ================================================================================= */
 
 header {
     background-image: -webkit-linear gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/hero.jpg");
     background-image: linear gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/hero.jpg");
-    /*background-image: url("../img/hero.jpg");*/
+    background-image: url("../img/hero.jpg");
     background-size: cover;
     background-position: center;
     background-position-x: center;
     background-position-y: center;
     height: 100vh;
-    background-attachement: fixed;
+    background-attachment: fixed;
 }
 
 nav {
@@ -28,6 +50,20 @@ nav {
 }
 
 
+.logo-black {
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 5px 0;
+}
+
+
+img {
+    border: 0;
+}
+
+
 .main-nav {
     float: right;
     list-style: none;
@@ -36,6 +72,58 @@ nav {
     list-style-position: outside;
     margin-top: 55px;
 }
+
+
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+
+}
+
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color; #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+
+h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+.btn-full:link, .btn-full:viisited, input[type="submit"] {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.btn:link, .btn:visited, input[type="submit"] {
+    display: inline-block;
+    padding:10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px:
+    transition: backgroung-color0.2s, boreder 0.2s, color 0.2s
+}
+
 
 
 /*  SECTIONS  ============================================================================= */
