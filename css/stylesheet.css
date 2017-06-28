@@ -120,8 +120,8 @@ h1, h2, h3 {
     padding:10px 30px;
     font-weight: 300;
     text-decoration: none;
-    border-radius: 200px:
-    transition: backgroung-color0.2s, boreder 0.2s, color 0.2s
+    border-radius: 200px;
+    transition: backgroung-color0.2s, boreder 0.2s, color 0.2s;
 }
 
 
@@ -138,6 +138,8 @@ h1, h2, h3 {
 
 .row {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .row:before,
@@ -814,3 +816,60 @@ h1, h2, h3 {
 		width: 100%; 
 	}
 }
+
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+
+.works-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 54px;
+    width: 54px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
