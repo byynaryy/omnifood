@@ -28,8 +28,7 @@ body {
     clear: both;
     padding: 0px;
     margin: 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 9, 0.7)), url("../img/hero.jpg");
-    /*background-image: url("../img/hero.jpg");*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/hero.jpg");
     background-size: cover;
     background-position: center;
     background-position-x: center;
@@ -109,6 +108,15 @@ h1 {
 }
 
 
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+
 h1, h2, h3 {
     font-weight: 300;
     text-transform: uppercase;
@@ -147,10 +155,7 @@ h1, h2, h3 {
 }
 
 .testimonials {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-        /*background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/back-customers-min.jpg");*/
+        /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/back-customers-min.jpg");*/
         background-image: url("../img/back-customers.jpg");
         background-size: cover;
         color: #fff;
@@ -158,7 +163,6 @@ h1, h2, h3 {
 }
 
 blockquote {
-    display: block;
     padding: 2%;
     font-style: italic;
     line-height: 145%;
@@ -907,7 +911,11 @@ cite img {
 
 
 
-
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+}
 
 
 
